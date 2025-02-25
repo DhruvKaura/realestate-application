@@ -9,6 +9,30 @@
 
         .wrapper{
             padding-right: 100px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: center;
+            gap: 50px;
+
+            .title{
+                font-size: 64px;
+            }
+
+            .boxes{
+                display: flex;
+                justify-content: space-between;
+
+                .box{
+                    h1{
+                        font-size: 36px;
+                    }
+                    h2{
+                        font-weight: 300;
+                        font-size: 20px;
+                    }
+                }
+            }
         }
     }
     .imageContainer{
