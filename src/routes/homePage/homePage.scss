@@ -1,0 +1,25 @@
+@import "../../responsive.scss";
+
+.homePage{
+    display: flex;
+    height: 100vh;
+
+    .textContainer{
+        flex: 3;
+
+        .wrapper{
+            padding-right: 100px;
+        }
+    }
+    .imageContainer{
+        flex: 2;
+        background-color: #fcf5fc;
+        position: relative;
+
+        img{
+            width: 115%;
+            position: absolute;
+            right: 0;
+        }
+    }
+}
